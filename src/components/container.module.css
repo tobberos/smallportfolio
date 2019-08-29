@@ -1,0 +1,8 @@
+.container{
+ background-color:white;
+ width:50%;
+ margin:0 auto;
+ border:1px solid black;
+min-height: 100vh;
+text-align: center;
+}
