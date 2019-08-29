@@ -7,19 +7,11 @@
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        fonts: [
-          {
-            family: `Oswald`,
-            subsets: [`latin`],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`400`, `700`]
-          },
-        ],
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-146666139-1",
       },
-    }
-  ]
+    },
+  ],
 }
